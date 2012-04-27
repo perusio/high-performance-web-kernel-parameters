@@ -18,9 +18,9 @@ with names descriptive of which subsystem of the kernel it relates to.
  2. Choose the configuration based on the type of role that your
     server will play:
     
-    + web server
+     + web server
     
-    + DB server
+     + DB server
 
  3. Copy from the directory `webserver` (for web servers) to
     `/etc/sysctl.d`.
@@ -38,6 +38,6 @@ with names descriptive of which subsystem of the kernel it relates to.
  kernel parameters at boot time.
  
  
- ## TODO
+## TODO
  
- Improve the documentation. Add Intel paper discussion for better understanding.
+Improve the documentation. Add Intel paper discussion for better understanding.
