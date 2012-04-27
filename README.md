@@ -16,11 +16,7 @@ with names descriptive of which subsystem of the kernel it relates to.
         git clone git://github.com/perusio/high-performance-web-kernel-parameters.git 
 
  2. Choose the configuration based on the type of role that your
-    server will play:
-    
-     + web server
-    
-     + DB server
+    server will play **web server** or **DB server**.
 
  3. Copy from the directory `webserver` (for web servers) to
     `/etc/sysctl.d`.
@@ -28,16 +24,15 @@ with names descriptive of which subsystem of the kernel it relates to.
     Copy from the directory `dbserver` (for DB servers) to
     `/etc/sysctl.d`  
 
- 3. Update the kernel config using:
+ 4. Update the kernel config using:
         
         sysctl --system
         
- 4. Done
+ 5. Done
  
- Note that from now on, this configuation will be used for setting the
- kernel parameters at boot time.
- 
- 
+Note that from now on, this configuation will be used for setting the
+kernel parameters at boot time.
+  
 ## TODO
  
 Improve the documentation. Add Intel paper discussion for better understanding.
